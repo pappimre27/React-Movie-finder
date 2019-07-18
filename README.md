@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Picture I.
 
-![](images/spider1.png)
+<img src="images/spider1.PNG">
 
 ## Picture II.
 
-![](images/spider2.png)
+<img src="images/spider2.PNG">
 
 
 ## Available Scripts
