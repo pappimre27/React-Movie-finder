@@ -14,7 +14,7 @@ let movieClientAPI;
 if (process.env.NODE_ENV !== 'production') {
     movieClientAPI = process.env.REACT_APP_MOVIE_API_KEY;
 } else {
-    movieClientAPI = process.MOVIE_API_KEY;
+    movieClientAPI = process.env.MOVIE_API_KEY;
 }
 
 const MovieState = props => {
