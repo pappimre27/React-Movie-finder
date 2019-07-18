@@ -2,7 +2,7 @@
   "name": "movie-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pappimre27.github.io/React-Movie-finder/",
+  "homepage": "http://pappimre27.github.io/React-Movie-finder/",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
