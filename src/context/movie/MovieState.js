@@ -11,11 +11,11 @@ import {
 
 let movieClientAPI;
 
-if (process.env.NODE_ENV !== 'production') {
-    movieClientAPI = process.env.REACT_APP_MOVIE_API_KEY;
-} else {
-    movieClientAPI = process.env.MOVIE_API_KEY;
-}
+// if (process.env.NODE_ENV !== 'production') {
+//     movieClientAPI = process.env.REACT_APP_MOVIE_API_KEY;
+// } else {
+//     movieClientAPI = process.env.MOVIE_API_KEY;
+// }
 
 const MovieState = props => {
     const initialState = {
@@ -30,7 +30,7 @@ const MovieState = props => {
     const searchMovies = async text => {
         setLoading();
 
-        const res = await axios.get(`https://www.omdbapi.com?s=${text}&apikey=${movieClientAPI}`);
+        const res = await axios.get(`https://www.omdbapi.com?s=${text}&apikey=42c9e29a`);
 
         dispatch({
             type: SEARCH_MOVIES,
@@ -41,7 +41,7 @@ const MovieState = props => {
     //Get movie
     const getMovie = async (id) => {
         setLoading();
-        const res = await axios.get(`https://www.omdbapi.com?i=${id}&apikey=${movieClientAPI}`);
+        const res = await axios.get(`https://www.omdbapi.com?i=${id}&apikey=42c9e29a`);
         dispatch({
             type: GET_MOVIE,
             payload: res.data
