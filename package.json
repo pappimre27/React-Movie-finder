@@ -2,10 +2,8 @@
   "name": "movie-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pappimre27.github.io/React-Movie-finder/",
   "dependencies": {
     "axios": "^0.19.0",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -14,8 +12,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
