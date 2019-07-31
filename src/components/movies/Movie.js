@@ -56,7 +56,7 @@ const Movie = ({ match }) => {
                             </li>
                         </ul>
 
-                        <a href={`http://imdb.com/title/${imdbID}`} className="btn btn-primary">View IMDB</a>
+                        <a href={`https://imdb.com/title/${imdbID}`} className="btn btn-primary">View IMDB</a>
                         <Link to="/" className="btn btn-primary">Go Back To Search</Link>
                     </div>
                 </div>
