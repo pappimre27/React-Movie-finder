@@ -1,10 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Picture I.
+## Screenshot I.
 
 <img src="images/spider1.PNG">
 
-## Picture II.
+## Sicture II.
 
 <img src="images/spider2.PNG">
 
